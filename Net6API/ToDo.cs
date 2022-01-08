@@ -1,5 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
-namespace Net6API
+﻿
+namespace Net6MinimalAPI
 {
     public class ToDo
     {
