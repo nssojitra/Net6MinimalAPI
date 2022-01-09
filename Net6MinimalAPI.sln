@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net6MinimalAPI", "Net6API\Net6MinimalAPI.csproj", "{8F3B382E-C20F-4D46-BC3F-FAC85B1855A7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Net6MinimalAPI", "Net6API\Net6MinimalAPI.csproj", "{8F3B382E-C20F-4D46-BC3F-FAC85B1855A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreWebApi", "CoreWebApi\CoreWebApi.csproj", "{976BB342-69B2-4F4A-9727-9ACF119CE6EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataModels", "DataModels\DataModels.csproj", "{FC566633-73E3-4991-BC31-6D15DB106703}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{8F3B382E-C20F-4D46-BC3F-FAC85B1855A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8F3B382E-C20F-4D46-BC3F-FAC85B1855A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8F3B382E-C20F-4D46-BC3F-FAC85B1855A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{976BB342-69B2-4F4A-9727-9ACF119CE6EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{976BB342-69B2-4F4A-9727-9ACF119CE6EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{976BB342-69B2-4F4A-9727-9ACF119CE6EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{976BB342-69B2-4F4A-9727-9ACF119CE6EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC566633-73E3-4991-BC31-6D15DB106703}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC566633-73E3-4991-BC31-6D15DB106703}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC566633-73E3-4991-BC31-6D15DB106703}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC566633-73E3-4991-BC31-6D15DB106703}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

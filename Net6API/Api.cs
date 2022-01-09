@@ -1,5 +1,4 @@
-﻿
-namespace Net6MinimalAPI
+﻿namespace Net6MinimalAPI
 {
     public static class Api
     {
@@ -9,7 +8,8 @@ namespace Net6MinimalAPI
 
             app.MapGet("/todos/incomplete", async (ToDoDb db) => Results.Ok(await db.ToDos.Where(t => !t.IsComplete).ToListAsync()));
 
-            app.MapGet("/todos/{id}", async (ToDoDb db, int id) => {
+            app.MapGet("/todos/{id}", async (ToDoDb db, int id) =>
+            {
 
                 var pizza = await db.ToDos.FindAsync(id);
 
